@@ -1,0 +1,106 @@
+/* Mobile Devices (up to 768px) */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        background-color: #333;
+        padding: 20px;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    /* About Section - Profile */
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-image {
+        flex: 0 0 auto;
+        margin: 0 auto 20px;
+    }
+
+    .profile-image img {
+        max-width: 200px;
+    }
+    
+    .about-text {
+        text-align: left;
+    }
+    
+    /* Certificates Grid */
+    .certificates-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablets (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .certificates-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .about-content {
+        gap: 30px;
+    }
+}
+
+/* Desktop (1025px and above) */
+@media (min-width: 1025px) {
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .certificates-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .hamburger {
+        display: none;
+    }
+}
