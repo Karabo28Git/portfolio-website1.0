@@ -1,7 +1,7 @@
 # Karabo Makau - Portfolio Website
 
 A modern, responsive personal portfolio website showcasing skills, projects, certifications, and experience with an integrated AI chatbot assistant.
-
+Live Demo: https://myportfolio-kappa-bice.vercel.app/
 ## 🚀 Features
 
 - ✅ **Responsive Design** - Works seamlessly on desktop, tablet, and mobile devices
